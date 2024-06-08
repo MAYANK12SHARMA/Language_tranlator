@@ -1,0 +1,7 @@
+__pyache__/
+*.pyc
+
+.env
+
+AI_vnv/
+
