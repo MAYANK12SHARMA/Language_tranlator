@@ -20,9 +20,9 @@ def index():
         output_lang = request.form['outputLang']
 
         if original_text and input_lang and output_lang:
-            key = os.environ['KEY']
-            endpoint = os.environ['ENDPOINT']
-            location = os.environ['LOCATION']
+            key = '9257553e89ae411c893a771aabbf5359'
+            endpoint = 'https://api.cognitive.microsofttranslator.com/'
+            location = 'centralindia'
 
             path = '/translate?api-version=3.0'
             target_language_parameter = '&to=' + output_lang
